@@ -1,0 +1,39 @@
+.categoryBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 10px 20px;
+}
+
+.categoryBlock__cellWrapper {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.categoryBlock__cellTitle {
+    font-size: 20px;
+    color: #282828;
+}
+
+@media (max-width: 768px) {
+    .categoryBlock {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .categoryBlock__cellWrapper {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .categoryBlock__cellWrapper {
+        max-width: 100%;
+        width: 100%;
+    }
+}

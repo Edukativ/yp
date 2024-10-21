@@ -1,0 +1,25 @@
+.footer {
+    height: fit-content;
+    background-color: transparent;
+    padding: 16px;
+}
+
+.footer__header {
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.footer__informationWrapper {
+    margin-top: 0;
+    background-color: transparent;
+}
+
+.footer__locationImageWrapper {
+    width: 100%;
+    height: 460px;
+    background-image: url('/public/map.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+}

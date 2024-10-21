@@ -1,0 +1,23 @@
+.banner {
+    width: 100%;
+    background-image: url('/public/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+
+.banner__header {
+    color: #FFFFFF;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 120px;
+    margin-top: 40px;
+}
+
+.banner__body {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

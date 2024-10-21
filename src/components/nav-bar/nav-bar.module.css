@@ -1,0 +1,12 @@
+.navbar {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.navbar__buttonsWrapper {
+    display: flex;
+    gap: 40px;
+}

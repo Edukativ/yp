@@ -1,0 +1,31 @@
+.checkbox__wrapper {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    border: 1px solid #DDDDDD;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.checkbox__wrapper.active {
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+}
+
+.checkbox__icon {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox__icon svg {
+    fill: white;
+    width: 16px;  
+    height: 16px; 
+}

@@ -1,0 +1,29 @@
+.not-found-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.not-found-page__header {
+    font-size: 64px;
+    color: #282828;
+    font-weight: 700;
+}
+
+.not-found-page__description {
+    font-size: 20px;
+    color: #8B8B8B;
+    font-weight: 500;
+}
+
+.not-found-page__numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
