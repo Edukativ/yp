@@ -34,7 +34,6 @@ const cartSlice = createSlice({
         state.items = state.items.filter((item) => item.name !== name);
       }
 
-      state.totalItemsCount = 0;
     },
     removeSingleItemFromCart(state, action) {
       const { name } = action.payload;

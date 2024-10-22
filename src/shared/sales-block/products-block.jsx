@@ -93,7 +93,7 @@ const ProductsBlock = ({ data, count, salesOnly }) => {
             id={item.id}
             title={item.title}
             price={item.price}
-            discount_price={item.discount_price}
+            discount_price={item.discont_price}
             image={item.image}
           />
         ))}
